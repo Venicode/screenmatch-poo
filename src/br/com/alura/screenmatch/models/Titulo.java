@@ -1,6 +1,6 @@
 package br.com.alura.screenmatch.models;
 
-public class Film {
+public class Titulo {
     private String nome;
     private int anoLancamento;
     boolean incluidoPlano;
@@ -41,7 +41,7 @@ public class Film {
 
     //Methods
     public void exibeFichaTecnica(){
-        System.out.println("Nome do filme: " + nome);
+        System.out.println("Nome do Título: " + nome);
         System.out.println("Ano de lançamento: " + anoLancamento);
         System.out.println("Duração em minutos: " + duracaoMinutos);
     }
@@ -52,5 +52,4 @@ public class Film {
     public double retornaMediaAvaliacoes(){
         return somaAvaliacao/qtdAvaliacao;
     }
-
 }
