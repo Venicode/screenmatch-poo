@@ -1,3 +1,4 @@
+import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.models.Filme;
 import br.com.alura.screenmatch.models.Serie;
 
@@ -8,6 +9,12 @@ public class Main {
         meuFilme.setAnoLancamento(1972);
         meuFilme.setDuracaoMinutos(175);
         meuFilme.exibeFichaTecnica();
+
+        Filme meuFilme2= new Filme();
+        meuFilme2.setNome("Kill Bill");
+        meuFilme2.setAnoLancamento(1972);
+        meuFilme2.setDuracaoMinutos(175);
+        meuFilme2.exibeFichaTecnica();
 
         meuFilme.registroAvaliacoes(9);
         meuFilme.registroAvaliacoes(10);
@@ -23,5 +30,11 @@ public class Main {
          novaSerie.setAnoLancamento(2011);
          novaSerie.exibeFichaTecnica();
         System.out.println("Duração em minutos: "+novaSerie.getDuracaoMinutos());
+        CalculadoraDeTempo calculadoraDeTempo = new CalculadoraDeTempo();
+        calculadoraDeTempo.somaTotal(meuFilme);
+        calculadoraDeTempo.somaTotal(meuFilme2);
+        calculadoraDeTempo.somaTotal(novaSerie);
+        System.out.println(calculadoraDeTempo.getTempoTotal());
+
     }
 }
