@@ -19,7 +19,7 @@ public class Main {
 
         Filme meuFilme2 = new Filme();
         meuFilme2.setNome("Kill Bill");
-        meuFilme2.setAnoLancamento(1972);
+        meuFilme2.setAnoLancamento(2003);
         meuFilme2.setDuracaoMinutos(175);
         meuFilme2.exibeFichaTecnica();
         meuFilme.registroAvaliacoes(9);
