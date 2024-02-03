@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="514001be-434c-4985-af1b-b0d85da84472" name="Changes" comment="criando a classe CalculadoraDeTempo">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/Classificacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/FiltroRecomendacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/models/Episodio.java" afterDir="false" />
+    <list default="true" id="514001be-434c-4985-af1b-b0d85da84472" name="Changes" comment="finalizando o projeto, nova classe Episodio, FiltroRecomendacao e interface Classificacao">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/models/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/models/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +96,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706458426085</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finalizando o projeto, nova classe Episodio, FiltroRecomendacao e interface Classificacao">
+      <option name="closed" value="true" />
+      <created>1706534620667</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706534620667</updated>
+    </task>
+    <task id="LOCAL-00006" summary="finalizando o projeto, nova classe Episodio, FiltroRecomendacao e interface Classificacao">
+      <option name="closed" value="true" />
+      <created>1706534689655</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706534689655</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -108,6 +120,7 @@
     <MESSAGE value="refatorando o codigo, uso de pacotes, getters e setters, além do encapsulamento" />
     <MESSAGE value="criação de novas classes, como série e título afim de organizar melhor os conceitos e o uso de herança." />
     <MESSAGE value="criando a classe CalculadoraDeTempo" />
-    <option name="LAST_COMMIT_MESSAGE" value="criando a classe CalculadoraDeTempo" />
+    <MESSAGE value="finalizando o projeto, nova classe Episodio, FiltroRecomendacao e interface Classificacao" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalizando o projeto, nova classe Episodio, FiltroRecomendacao e interface Classificacao" />
   </component>
 </project>
